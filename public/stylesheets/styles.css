@@ -5,3 +5,151 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+div {
+  display: grid;
+  place-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.random {
+    display: grid;
+    place-items: center;
+    list-style: none;
+    margin-top: 100px;
+}
+
+.random img {
+    width: 15%;
+}
+.random h3 {
+    position: relative;
+    right: 200px;
+}
+
+.random p {
+    max-width: 400px;
+}
+
+.random ul {
+    text-align: left;
+}
+
+.random a {
+  text-decoration: none;
+  color: #0a2c42;
+  padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2081c3;
+}
+
+.navLinks {
+    word-spacing: 10px;
+    margin-right: 1000px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navLinks ul li {
+    display: inline-block;
+    padding-left: 8px 20px;
+    position: relative;
+}
+
+.navLinks ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.beers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    place-items: center;
+    transform: translate(150%);
+    position: absolute;
+    list-style-type: none;
+}
+
+.beers p {
+    text-align: center;
+    max-width: 400px;
+    word-spacing: 0;
+}
+
+.beers img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+hr {
+    width: 100%;
+    height: 3px;
+    background-color: #0a2c42;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.index a {
+  text-decoration: none;
+  color: #fff;
+  background: #2081c3;
+  padding: 10px;
+  border: 1px solid #2081c3;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.beers a {
+    text-decoration: none;
+    color: black;
+}
+
+.beercontainer {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
